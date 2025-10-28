@@ -1,11 +1,8 @@
 <?php
-/*****
-SUSTITUYE LAS XXX POR UN VALOR DE UNA NOTICIA DE INTERES EN ESTA CATEGORIA
-*****/
-
 $contenedores = [
-"titulo" => "XXX",
-"autor" => "XXX",
-"resumen" => "XXX",
+"titulo" => "Docker y Kubernetes Dominan la Orquestación",
+"autor" => "Miguel Ángel Cruz",
+"resumen" => "Las tecnologías de contenedores continúan siendo esenciales para el desarrollo ágil, con nuevas herramientas de gestión y seguridad.",
+"imagen" => "img/contenedores.jpg"
 ];
 ?>

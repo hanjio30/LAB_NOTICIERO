@@ -1,11 +1,8 @@
 <?php
-/*****
-SUSTITUYE LAS XXX POR UN VALOR DE UNA NOTICIA DE INTERES EN ESTA CATEGORIA
-*****/
-
 $ciencia = [
-"titulo" => "XXX",
-"autor" => "XXX",
-"resumen" => "XXX",
+"titulo" => "Descubrimiento de Nueva Partícula Subatómica",
+"autor" => "Dr. Pedro Ramírez",
+"resumen" => "Científicos del CERN anuncian el hallazgo de una partícula que podría revolucionar nuestra comprensión de la física cuántica.",
+"imagen" => "img/ciencia.jpg"
 ];
 ?>

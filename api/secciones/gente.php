@@ -1,11 +1,8 @@
 <?php
-/*****
-SUSTITUYE LAS XXX POR UN VALOR DE UNA NOTICIA DE INTERES EN ESTA CATEGORIA
-*****/
-
 $gente = [
-"titulo" => "XXX",
-"autor" => "XXX",
-"resumen" => "XXX",
+"titulo" => "Influencers Tecnológicos Marcan Tendencias Digitales",
+"autor" => "Sofia Reyes",
+"resumen" => "Nuevos rostros del mundo tech ganan relevancia compartiendo conocimientos sobre programación, gadgets y startups.",
+"imagen" => "img/gente.jpg"
 ];
 ?>

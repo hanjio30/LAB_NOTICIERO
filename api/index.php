@@ -1,6 +1,5 @@
-
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -16,6 +15,13 @@
     <!-- Custom styles for this template -->
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
     <link href="https://getbootstrap.com/docs/4.1/examples/blog/blog.css" rel="stylesheet">
+    
+    <style>
+      .card-img-top {
+        height: 200px;
+        object-fit: cover;
+      }
+    </style>
   </head>
 
   <body>
@@ -35,14 +41,10 @@
       <div class="jumbotron p-3 p-md-5 text-white rounded bg-dark">
         <div class="col-md-12 px-0">
           <h1 class="display-4 font-italic">
-            <?php
-              echo $portada["titulo"];
-            ?>
+            <?php echo $portada["titulo"]; ?>
           </h1>
           <p class="lead my-3">
-            <?php
-              echo $portada["resumen"];
-            ?>
+            <?php echo $portada["resumen"]; ?>
           </p>
         </div>
       </div>
@@ -54,49 +56,39 @@
       ?>
       <div class="row mb-2">
         <div class="col-md-6">
-          <div class="card flex-md-row mb-4 shadow-sm ">
-            <div class="card-body d-flex flex-column align-items-start col-md-12">
+          <div class="card mb-4 shadow-sm">
+            <img class="card-img-top" src="<?php echo $internacional["imagen"]; ?>" alt="<?php echo $internacional["titulo"]; ?>">
+            <div class="card-body">
               <strong class="d-inline-block mb-2 text-primary">Internacional</strong>
               <h3 class="mb-0">
                 <a class="text-dark" href="#">
-                  <?php
-                    echo $internacional["titulo"];
-                  ?>
+                  <?php echo $internacional["titulo"]; ?>
                 </a>
               </h3>
               <div class="mb-1 text-muted">
-                <?php
-                  echo $internacional["autor"];
-                ?>
+                <?php echo $internacional["autor"]; ?>
               </div>
               <p class="card-text mb-auto">
-                <?php
-                  echo $internacional["resumen"];
-                ?>
+                <?php echo $internacional["resumen"]; ?>
               </p>
             </div>
           </div>
         </div>
         <div class="col-md-6">
-          <div class="card flex-md-row mb-4 shadow-sm ">
-            <div class="card-body d-flex flex-column align-items-start col-md-12">
+          <div class="card mb-4 shadow-sm">
+            <img class="card-img-top" src="<?php echo $nacional["imagen"]; ?>" alt="<?php echo $nacional["titulo"]; ?>">
+            <div class="card-body">
               <strong class="d-inline-block mb-2 text-success">Nacional</strong>
               <h3 class="mb-0">
                 <a class="text-dark" href="#">
-                  <?php
-                    echo $nacional["titulo"];
-                  ?>
+                  <?php echo $nacional["titulo"]; ?>
                 </a>
               </h3>
               <div class="mb-1 text-muted">
-                <?php
-                  echo $nacional["autor"];
-                ?>
+                <?php echo $nacional["autor"]; ?>
               </div>
               <p class="card-text mb-auto">
-                <?php
-                  echo $nacional["resumen"];
-                ?>
+                <?php echo $nacional["resumen"]; ?>
               </p>
             </div>
           </div>
@@ -111,49 +103,39 @@
       ?>
       <div class="row mb-2">
         <div class="col-md-6">
-          <div class="card flex-md-row mb-4 shadow-sm ">
-            <div class="card-body d-flex flex-column align-items-start col-md-12">
+          <div class="card mb-4 shadow-sm">
+            <img class="card-img-top" src="<?php echo $economia["imagen"]; ?>" alt="<?php echo $economia["titulo"]; ?>">
+            <div class="card-body">
               <strong class="d-inline-block mb-2 text-secondary">Economía</strong>
               <h3 class="mb-0">
                 <a class="text-dark" href="#">
-                  <?php
-                    echo $economia["titulo"];
-                  ?>
+                  <?php echo $economia["titulo"]; ?>
                 </a>
               </h3>
               <div class="mb-1 text-muted">
-                <?php
-                  echo $economia["autor"];
-                ?>
+                <?php echo $economia["autor"]; ?>
               </div>
               <p class="card-text mb-auto">
-                <?php
-                  echo $economia["resumen"];
-                ?>
+                <?php echo $economia["resumen"]; ?>
               </p>
             </div>
           </div>
         </div>
         <div class="col-md-6">
-          <div class="card flex-md-row mb-4 shadow-sm ">
-            <div class="card-body d-flex flex-column align-items-start col-md-12">
+          <div class="card mb-4 shadow-sm">
+            <img class="card-img-top" src="<?php echo $opinion["imagen"]; ?>" alt="<?php echo $opinion["titulo"]; ?>">
+            <div class="card-body">
               <strong class="d-inline-block mb-2 text-warning">Opinión</strong>
               <h3 class="mb-0">
                 <a class="text-dark" href="#">
-                  <?php
-                    echo $opinion["titulo"];
-                  ?>
+                  <?php echo $opinion["titulo"]; ?>
                 </a>
               </h3>
               <div class="mb-1 text-muted">
-                <?php
-                  echo $opinion["autor"];
-                ?>
+                <?php echo $opinion["autor"]; ?>
               </div>
               <p class="card-text mb-auto">
-                <?php
-                  echo $opinion["resumen"];
-                ?>
+                <?php echo $opinion["resumen"]; ?>
               </p>
             </div>
           </div>
@@ -168,49 +150,39 @@
       ?>
       <div class="row mb-2">
         <div class="col-md-6">
-          <div class="card flex-md-row mb-4 shadow-sm ">
-            <div class="card-body d-flex flex-column align-items-start col-md-12">
+          <div class="card mb-4 shadow-sm">
+            <img class="card-img-top" src="<?php echo $tecnologia["imagen"]; ?>" alt="<?php echo $tecnologia["titulo"]; ?>">
+            <div class="card-body">
               <strong class="d-inline-block mb-2 text-primary">Tecnología</strong>
               <h3 class="mb-0">
                 <a class="text-dark" href="#">
-                  <?php
-                    echo $tecnologia["titulo"];
-                  ?>
+                  <?php echo $tecnologia["titulo"]; ?>
                 </a>
               </h3>
               <div class="mb-1 text-muted">
-                <?php
-                  echo $tecnologia["autor"];
-                ?>
+                <?php echo $tecnologia["autor"]; ?>
               </div>
               <p class="card-text mb-auto">
-                <?php
-                  echo $tecnologia["resumen"];
-                ?>
+                <?php echo $tecnologia["resumen"]; ?>
               </p>
             </div>
           </div>
         </div>
         <div class="col-md-6">
-          <div class="card flex-md-row mb-4 shadow-sm ">
-            <div class="card-body d-flex flex-column align-items-start col-md-12">
+          <div class="card mb-4 shadow-sm">
+            <img class="card-img-top" src="<?php echo $ciencia["imagen"]; ?>" alt="<?php echo $ciencia["titulo"]; ?>">
+            <div class="card-body">
               <strong class="d-inline-block mb-2 text-success">Ciencia</strong>
               <h3 class="mb-0">
                 <a class="text-dark" href="#">
-                  <?php
-                    echo $ciencia["titulo"];
-                  ?>
+                  <?php echo $ciencia["titulo"]; ?>
                 </a>
               </h3>
               <div class="mb-1 text-muted">
-                <?php
-                  echo $ciencia["autor"];
-                ?>
+                <?php echo $ciencia["autor"]; ?>
               </div>
               <p class="card-text mb-auto">
-                <?php
-                  echo $ciencia["resumen"];
-                ?>
+                <?php echo $ciencia["resumen"]; ?>
               </p>
             </div>
           </div>
@@ -225,49 +197,39 @@
       ?>
       <div class="row mb-2">
         <div class="col-md-6">
-          <div class="card flex-md-row mb-4 shadow-sm ">
-            <div class="card-body d-flex flex-column align-items-start col-md-12">
+          <div class="card mb-4 shadow-sm">
+            <img class="card-img-top" src="<?php echo $cultura["imagen"]; ?>" alt="<?php echo $cultura["titulo"]; ?>">
+            <div class="card-body">
               <strong class="d-inline-block mb-2 text-secondary">Cultura</strong>
               <h3 class="mb-0">
                 <a class="text-dark" href="#">
-                  <?php
-                    echo $cultura["titulo"];
-                  ?>
+                  <?php echo $cultura["titulo"]; ?>
                 </a>
               </h3>
               <div class="mb-1 text-muted">
-                <?php
-                  echo $cultura["autor"];
-                ?>
+                <?php echo $cultura["autor"]; ?>
               </div>
               <p class="card-text mb-auto">
-                <?php
-                  echo $cultura["resumen"];
-                ?>
+                <?php echo $cultura["resumen"]; ?>
               </p>
             </div>
           </div>
         </div>
         <div class="col-md-6">
-          <div class="card flex-md-row mb-4 shadow-sm ">
-            <div class="card-body d-flex flex-column align-items-start col-md-12">
+          <div class="card mb-4 shadow-sm">
+            <img class="card-img-top" src="<?php echo $gente["imagen"]; ?>" alt="<?php echo $gente["titulo"]; ?>">
+            <div class="card-body">
               <strong class="d-inline-block mb-2 text-warning">Gente</strong>
               <h3 class="mb-0">
                 <a class="text-dark" href="#">
-                  <?php
-                    echo $gente["titulo"];
-                  ?>
+                  <?php echo $gente["titulo"]; ?>
                 </a>
               </h3>
               <div class="mb-1 text-muted">
-                <?php
-                  echo $gente["autor"];
-                ?>
+                <?php echo $gente["autor"]; ?>
               </div>
               <p class="card-text mb-auto">
-                <?php
-                  echo $gente["resumen"];
-                ?>
+                <?php echo $gente["resumen"]; ?>
               </p>
             </div>
           </div>
@@ -283,73 +245,58 @@
       ?>
       <div class="row mb-2">
         <div class="col-md-4">
-          <div class="card flex-md-row mb-4 shadow-sm ">
-            <div class="card-body d-flex flex-column align-items-start col-md-12">
+          <div class="card mb-4 shadow-sm">
+            <img class="card-img-top" src="<?php echo $deportes["imagen"]; ?>" alt="<?php echo $deportes["titulo"]; ?>">
+            <div class="card-body">
               <strong class="d-inline-block mb-2 text-primary">Deportes</strong>
               <h3 class="mb-0">
                 <a class="text-dark" href="#">
-                  <?php
-                    echo $deportes["titulo"];
-                  ?>
+                  <?php echo $deportes["titulo"]; ?>
                 </a>
               </h3>
               <div class="mb-1 text-muted">
-                <?php
-                  echo $deportes["autor"];
-                ?>
+                <?php echo $deportes["autor"]; ?>
               </div>
               <p class="card-text mb-auto">
-                <?php
-                  echo $deportes["resumen"];
-                ?>
+                <?php echo $deportes["resumen"]; ?>
               </p>
             </div>
           </div>
         </div>
         <div class="col-md-4">
-          <div class="card flex-md-row mb-4 shadow-sm ">
-            <div class="card-body d-flex flex-column align-items-start col-md-12">
+          <div class="card mb-4 shadow-sm">
+            <img class="card-img-top" src="<?php echo $television["imagen"]; ?>" alt="<?php echo $television["titulo"]; ?>">
+            <div class="card-body">
               <strong class="d-inline-block mb-2 text-success">Televisión</strong>
               <h3 class="mb-0">
                 <a class="text-dark" href="#">
-                  <?php
-                    echo $television["titulo"];
-                  ?>
+                  <?php echo $television["titulo"]; ?>
                 </a>
               </h3>
               <div class="mb-1 text-muted">
-                <?php
-                  echo $television["autor"];
-                ?>
+                <?php echo $television["autor"]; ?>
               </div>
               <p class="card-text mb-auto">
-                <?php
-                  echo $television["resumen"];
-                ?>
+                <?php echo $television["resumen"]; ?>
               </p>
             </div>
           </div>
         </div>
         <div class="col-md-4">
-          <div class="card flex-md-row mb-4 shadow-sm ">
-            <div class="card-body d-flex flex-column align-items-start col-md-12">
-              <strong class="d-inline-block mb-2 text-success">Televisión</strong>
+          <div class="card mb-4 shadow-sm">
+            <img class="card-img-top" src="<?php echo $video["imagen"]; ?>" alt="<?php echo $video["titulo"]; ?>">
+            <div class="card-body">
+              <strong class="d-inline-block mb-2 text-success">Video</strong>
               <h3 class="mb-0">
                 <a class="text-dark" href="#">
-                  <?php
-                    echo $video["titulo"];
-                  ?>
+                  <?php echo $video["titulo"]; ?>
                 </a>
               </h3>
               <div class="mb-1 text-muted">
-                <?php
-                  echo $video["autor"];
-                ?>
+                <?php echo $video["autor"]; ?>
               </div>
               <p class="card-text mb-auto">
-                <?php
-                  echo $video["resumen"];
-                ?>
+                <?php echo $video["resumen"]; ?>
               </p>
             </div>
           </div>
@@ -365,73 +312,58 @@
       ?>
       <div class="row mb-2">
         <div class="col-md-4">
-          <div class="card flex-md-row mb-4 shadow-sm ">
-            <div class="card-body d-flex flex-column align-items-start col-md-12">
+          <div class="card mb-4 shadow-sm">
+            <img class="card-img-top" src="<?php echo $formacion["imagen"]; ?>" alt="<?php echo $formacion["titulo"]; ?>">
+            <div class="card-body">
               <strong class="d-inline-block mb-2 text-primary">Formación</strong>
               <h3 class="mb-0">
                 <a class="text-dark" href="#">
-                  <?php
-                    echo $formacion["titulo"];
-                  ?>
+                  <?php echo $formacion["titulo"]; ?>
                 </a>
               </h3>
               <div class="mb-1 text-muted">
-                <?php
-                  echo $formacion["autor"];
-                ?>
+                <?php echo $formacion["autor"]; ?>
               </div>
               <p class="card-text mb-auto">
-                <?php
-                  echo $formacion["resumen"];
-                ?>
+                <?php echo $formacion["resumen"]; ?>
               </p>
             </div>
           </div>
         </div>
         <div class="col-md-4">
-          <div class="card flex-md-row mb-4 shadow-sm ">
-            <div class="card-body d-flex flex-column align-items-start col-md-12">
+          <div class="card mb-4 shadow-sm">
+            <img class="card-img-top" src="<?php echo $empleo["imagen"]; ?>" alt="<?php echo $empleo["titulo"]; ?>">
+            <div class="card-body">
               <strong class="d-inline-block mb-2 text-success">Empleo</strong>
               <h3 class="mb-0">
                 <a class="text-dark" href="#">
-                  <?php
-                    echo $empleo["titulo"];
-                  ?>
+                  <?php echo $empleo["titulo"]; ?>
                 </a>
               </h3>
               <div class="mb-1 text-muted">
-                <?php
-                  echo $empleo["autor"];
-                ?>
+                <?php echo $empleo["autor"]; ?>
               </div>
               <p class="card-text mb-auto">
-                <?php
-                  echo $empleo["resumen"];
-                ?>
+                <?php echo $empleo["resumen"]; ?>
               </p>
             </div>
           </div>
         </div>
         <div class="col-md-4">
-          <div class="card flex-md-row mb-4 shadow-sm ">
-            <div class="card-body d-flex flex-column align-items-start col-md-12">
+          <div class="card mb-4 shadow-sm">
+            <img class="card-img-top" src="<?php echo $sociedad["imagen"]; ?>" alt="<?php echo $sociedad["titulo"]; ?>">
+            <div class="card-body">
               <strong class="d-inline-block mb-2 text-success">Sociedad</strong>
               <h3 class="mb-0">
                 <a class="text-dark" href="#">
-                  <?php
-                    echo $sociedad["titulo"];
-                  ?>
+                  <?php echo $sociedad["titulo"]; ?>
                 </a>
               </h3>
               <div class="mb-1 text-muted">
-                <?php
-                  echo $sociedad["autor"];
-                ?>
+                <?php echo $sociedad["autor"]; ?>
               </div>
               <p class="card-text mb-auto">
-                <?php
-                  echo $sociedad["resumen"];
-                ?>
+                <?php echo $sociedad["resumen"]; ?>
               </p>
             </div>
           </div>
@@ -446,49 +378,39 @@
       ?>
       <div class="row mb-2">
         <div class="col-md-6">
-          <div class="card flex-md-row mb-4 shadow-sm ">
-            <div class="card-body d-flex flex-column align-items-start col-md-12">
+          <div class="card mb-4 shadow-sm">
+            <img class="card-img-top" src="<?php echo $openstack["imagen"]; ?>" alt="<?php echo $openstack["titulo"]; ?>">
+            <div class="card-body">
               <strong class="d-inline-block mb-2 text-primary">OpenStack</strong>
               <h3 class="mb-0">
                 <a class="text-dark" href="#">
-                  <?php
-                    echo $openstack["titulo"];
-                  ?>
+                  <?php echo $openstack["titulo"]; ?>
                 </a>
               </h3>
               <div class="mb-1 text-muted">
-                <?php
-                  echo $openstack["autor"];
-                ?>
+                <?php echo $openstack["autor"]; ?>
               </div>
               <p class="card-text mb-auto">
-                <?php
-                  echo $openstack["resumen"];
-                ?>
+                <?php echo $openstack["resumen"]; ?>
               </p>
             </div>
           </div>
         </div>
         <div class="col-md-6">
-          <div class="card flex-md-row mb-4 shadow-sm ">
-            <div class="card-body d-flex flex-column align-items-start col-md-12">
+          <div class="card mb-4 shadow-sm">
+            <img class="card-img-top" src="<?php echo $git["imagen"]; ?>" alt="<?php echo $git["titulo"]; ?>">
+            <div class="card-body">
               <strong class="d-inline-block mb-2 text-success">Git</strong>
               <h3 class="mb-0">
                 <a class="text-dark" href="#">
-                  <?php
-                    echo $git["titulo"];
-                  ?>
+                  <?php echo $git["titulo"]; ?>
                 </a>
               </h3>
               <div class="mb-1 text-muted">
-                <?php
-                  echo $git["autor"];
-                ?>
+                <?php echo $git["autor"]; ?>
               </div>
               <p class="card-text mb-auto">
-                <?php
-                  echo $git["resumen"];
-                ?>
+                <?php echo $git["resumen"]; ?>
               </p>
             </div>
           </div>
@@ -503,49 +425,39 @@
       ?>
       <div class="row mb-2">
         <div class="col-md-6">
-          <div class="card flex-md-row mb-4 shadow-sm ">
-            <div class="card-body d-flex flex-column align-items-start col-md-12">
+          <div class="card mb-4 shadow-sm">
+            <img class="card-img-top" src="<?php echo $contenedores["imagen"]; ?>" alt="<?php echo $contenedores["titulo"]; ?>">
+            <div class="card-body">
               <strong class="d-inline-block mb-2 text-secondary">Contenedores</strong>
               <h3 class="mb-0">
                 <a class="text-dark" href="#">
-                  <?php
-                    echo $contenedores["titulo"];
-                  ?>
+                  <?php echo $contenedores["titulo"]; ?>
                 </a>
               </h3>
               <div class="mb-1 text-muted">
-                <?php
-                  echo $contenedores["autor"];
-                ?>
+                <?php echo $contenedores["autor"]; ?>
               </div>
               <p class="card-text mb-auto">
-                <?php
-                  echo $contenedores["resumen"];
-                ?>
+                <?php echo $contenedores["resumen"]; ?>
               </p>
             </div>
           </div>
         </div>
         <div class="col-md-6">
-          <div class="card flex-md-row mb-4 shadow-sm ">
-            <div class="card-body d-flex flex-column align-items-start col-md-12">
+          <div class="card mb-4 shadow-sm">
+            <img class="card-img-top" src="<?php echo $openshift["imagen"]; ?>" alt="<?php echo $openshift["titulo"]; ?>">
+            <div class="card-body">
               <strong class="d-inline-block mb-2 text-warning">OpenShift</strong>
               <h3 class="mb-0">
                 <a class="text-dark" href="#">
-                  <?php
-                    echo $openshift["titulo"];
-                  ?>
+                  <?php echo $openshift["titulo"]; ?>
                 </a>
               </h3>
               <div class="mb-1 text-muted">
-                <?php
-                  echo $openshift["autor"];
-                ?>
+                <?php echo $openshift["autor"]; ?>
               </div>
               <p class="card-text mb-auto">
-                <?php
-                  echo $openshift["resumen"];
-                ?>
+                <?php echo $openshift["resumen"]; ?>
               </p>
             </div>
           </div>

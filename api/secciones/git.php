@@ -1,11 +1,8 @@
 <?php
-/*****
-SUSTITUYE LAS XXX POR UN VALOR DE UNA NOTICIA DE INTERES EN ESTA CATEGORIA
-*****/
-
 $git = [
-"titulo" => "XXX",
-"autor" => "XXX",
-"resumen" => "XXX",
+"titulo" => "Git 3.0 Revoluciona el Control de Versiones",
+"autor" => "Laura Sánchez",
+"resumen" => "GitHub presenta nuevas funcionalidades de colaboración en tiempo real y mejoras en la gestión de repositorios de gran escala.",
+"imagen" => "img/git.jpg"
 ];
 ?>

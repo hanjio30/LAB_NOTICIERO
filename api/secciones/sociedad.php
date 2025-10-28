@@ -1,11 +1,8 @@
 <?php
-/*****
-SUSTITUYE LAS XXX POR UN VALOR DE UNA NOTICIA DE INTERES EN ESTA CATEGORIA
-*****/
-
 $sociedad = [
-"titulo" => "XXX",
-"autor" => "XXX",
-"resumen" => "XXX",
+"titulo" => "Brecha Digital: Iniciativas para Inclusión Tecnológica",
+"autor" => "Elena Vargas",
+"resumen" => "Programas gubernamentales y privados buscan garantizar acceso universal a internet y alfabetización digital.",
+"imagen" => "img/sociedad.jpg"
 ];
 ?>

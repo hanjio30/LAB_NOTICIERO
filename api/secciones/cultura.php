@@ -1,11 +1,8 @@
 <?php
-/*****
-SUSTITUYE LAS XXX POR UN VALOR DE UNA NOTICIA DE INTERES EN ESTA CATEGORIA
-*****/
-
 $cultura = [
-"titulo" => "XXX",
-"autor" => "XXX",
-"resumen" => "XXX",
+"titulo" => "Museos Virtuales: Arte Accesible para Todos",
+"autor" => "Carmen López",
+"resumen" => "La realidad virtual permite visitar los principales museos del mundo desde casa, democratizando el acceso a la cultura.",
+"imagen" => "img/cultura.jpg"
 ];
 ?>

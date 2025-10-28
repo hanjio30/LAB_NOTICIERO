@@ -1,11 +1,8 @@
 <?php
-/*****
-SUSTITUYE LAS XXX POR UN VALOR DE UNA NOTICIA DE INTERES EN ESTA CATEGORIA
-*****/
-
 $television = [
-"titulo" => "XXX",
-"autor" => "XXX",
-"resumen" => "XXX",
+"titulo" => "Streaming 8K Llega a las Plataformas Principales",
+"autor" => "Lucía Herrera",
+"resumen" => "Netflix y otras plataformas anuncian contenido en resolución 8K, ofreciendo calidad cinematográfica en el hogar.",
+"imagen" => "img/television.jpg"
 ];
 ?>

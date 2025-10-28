@@ -1,11 +1,8 @@
 <?php
-/*****
-SUSTITUYE LAS XXX POR UN VALOR DE UNA NOTICIA DE INTERES EN ESTA CATEGORIA
-*****/
-
 $formacion = [
-"titulo" => "XXX",
+"titulo" => "Bootcamps de Programación Registran Récord de Inscripciones",
 "autor" => "Gabinete de comunicación",
-"resumen" => "XXX",
+"resumen" => "La demanda de profesionales tech impulsa programas intensivos de formación en desarrollo web, IA y ciberseguridad.",
+"imagen" => "img/formacion.jpg"
 ];
 ?>

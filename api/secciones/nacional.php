@@ -1,11 +1,8 @@
 <?php
-/*****
-SUSTITUYE LAS XXX POR UN VALOR DE UNA NOTICIA DE INTERES EN ESTA CATEGORIA
-*****/
-
 $nacional = [
-"titulo" => "XXX",
-"autor" => "XXX",
-"resumen" => "XXX",
+"titulo" => "Gobierno Impulsa Plan de Transformación Digital",
+"autor" => "Carlos Mendoza",
+"resumen" => "Nueva iniciativa busca digitalizar todos los servicios públicos para 2026, facilitando trámites y mejorando la eficiencia administrativa.",
+"imagen" => "img/nacional.jpg"
 ];
 ?>

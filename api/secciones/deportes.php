@@ -1,11 +1,8 @@
 <?php
-/*****
-SUSTITUYE LAS XXX POR UN VALOR DE UNA NOTICIA DE INTERES EN ESTA CATEGORIA
-*****/
-
 $deportes = [
-"titulo" => "XXX",
-"autor" => "XXX",
-"resumen" => "XXX",
+"titulo" => "Tecnología VAR Evoluciona con Inteligencia Artificial",
+"autor" => "Diego Martínez",
+"resumen" => "Los sistemas de videoarbitraje incorporan IA para decisiones más precisas y rápidas en competiciones deportivas de élite.",
+"imagen" => "img/deportes.jpg"
 ];
 ?>
